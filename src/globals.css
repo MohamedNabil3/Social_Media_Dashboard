@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  transition: background-color 0.2s ease;
+}
+
+:root {
+  --page-bg-light: #f1f3f4;
+  --page-bg-dark: #1a1d21;
+  --container-light: #f0f0f0;
+  --container-dark: #444;
+  --container-active-light: #e0e0e0;
+  --container-active-dark: #777;
+  --primary-color: #4a90e2;
+  --secondary-color: #6c757d;
+  --text-light: #f8f9fa;
+  --text-dark: #343a40;
+  --light-bg: #fff;
+  --dark-bg: #2c2f33;
+}

@@ -1,0 +1,83 @@
+.settingsPageLight {
+  min-height: calc(100vh - 56px); /* 56px is the height of the navbar */
+  padding-top: 1rem;
+  background-color: var(--page-bg-light);
+}
+
+.settingsPageDark {
+  min-height: calc(100vh - 56px); /* 56px is the height of the navbar */
+  padding-top: 1rem;
+  background-color: var(--page-bg-dark);
+}
+
+.settingsContainerLight {
+  background-color: var(--light-bg);
+  color: var(--text-dark);
+}
+
+.formLabelLight {
+  color: var(--text-dark);
+}
+
+.formLabelDark {
+  color: var(--text-light);
+}
+
+.settingsContainerDark {
+  background-color: var(--dark-bg);
+  color: var(--text-light);
+}
+
+.formControlLight {
+  color: #212529 !important;
+  /* border: none; */
+  background-color: white !important;
+}
+
+.formControlDark {
+  color: #e0e0e0 !important;
+  /* border: none; */
+  background-color: #2c2f33 !important;
+}
+
+/* Corrected placeholder selectors to match the input classes */
+.formControlLight::placeholder {
+  color: #212529 !important;
+}
+.formControlDark::placeholder {
+  color: #e0e0e0 !important;
+}
+
+.navLinkLight {
+  color: var(--text-dark) !important;
+  background-color: var(--container-light) !important;
+}
+
+.navLinkDark {
+  color: var(--text-light) !important;
+  background-color: var(--container-dark) !important ;
+}
+.navLinkLight:hover {
+  background-color: var(--container-active-light) !important;
+}
+.navLinkDark:hover {
+  background-color: var(--container-active-dark) !important;
+}
+
+.navLinkActiveLight {
+  color: var(--text-dark) !important;
+  background-color: var(--container-active-light) !important;
+}
+
+.navLinkActiveDark {
+  color: var(--text-light) !important;
+  background-color: var(--container-active-dark) !important;
+}
+
+@media (min-width: 768px) {
+  .rowSettings {
+    min-height: calc(
+      100vh - 72px
+    ); /* 72px is the height of the navbar + mb-3 of the col*/
+  }
+}

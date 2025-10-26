@@ -1,0 +1,37 @@
+.navLink {
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.2s ease;
+  text-align: center;
+  margin: 1px 3px 0;
+}
+
+.light {
+  color: #333;
+  background-color: #f0f0f0;
+}
+
+.light:hover {
+  background-color: #e0e0e0;
+}
+
+.activeLight {
+  background-color: #e0e0e0;
+  font-weight: bold;
+}
+
+.dark {
+  color: white;
+  background-color: #444;
+}
+
+.dark:hover {
+  background-color: #555;
+}
+
+.activeDark {
+  background-color: #555;
+  font-weight: bold;
+}

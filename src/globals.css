@@ -17,3 +17,7 @@
   --light-bg: #fff;
   --dark-bg: #2c2f33;
 }
+
+.no-arrow .dropdown-toggle::after {
+  display: none !important;
+}

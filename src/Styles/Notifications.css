@@ -1,0 +1,30 @@
+.dropdown-item.notification-item {
+  max-width: 350px;
+  padding: 5px 8px;
+  margin: 1px 0px 0px;
+  /* border-radius: 4px; */
+  outline: none;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.notification-message {
+  flex: 1;
+  min-width: 0; /* necessary for ellipsis in flexbox */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.notification-time {
+  flex-shrink: 0;
+  font-size: 0.75em;
+  margin-left: 6px;
+}
+
+.dropdown-item.notification-item:focus {
+  background-color: inherit !important;
+  color: inherit !important;
+  outline: none !important;
+  box-shadow: none !important;
+}

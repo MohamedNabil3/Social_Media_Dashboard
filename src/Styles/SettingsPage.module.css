@@ -1,13 +1,13 @@
 .settingsPageLight {
   min-height: calc(100vh - 56px); /* 56px is the height of the navbar */
   padding-top: 1rem;
-  background-color: var(--page-bg-light);
+  background-color: var(--Pages-bg-light);
 }
 
 .settingsPageDark {
   min-height: calc(100vh - 56px); /* 56px is the height of the navbar */
   padding-top: 1rem;
-  background-color: var(--page-bg-dark);
+  background-color: var(--Pages-bg-dark);
 }
 
 .settingsContainerLight {
@@ -29,23 +29,23 @@
 }
 
 .formControlLight {
-  color: #212529 !important;
+  color: var(--text-dark) !important;
   /* border: none; */
-  background-color: white !important;
+  background-color: var(--light-bg) !important;
 }
 
 .formControlDark {
-  color: #e0e0e0 !important;
+  color: var(--text-light) !important;
   /* border: none; */
-  background-color: #2c2f33 !important;
+  background-color: var(--dark-bg) !important;
 }
 
 /* Corrected placeholder selectors to match the input classes */
 .formControlLight::placeholder {
-  color: #212529 !important;
+  color: var(--text-dark) !important;
 }
 .formControlDark::placeholder {
-  color: #e0e0e0 !important;
+  color: var(--text-light) !important;
 }
 
 .navLinkLight {
@@ -58,20 +58,20 @@
   background-color: var(--container-dark) !important ;
 }
 .navLinkLight:hover {
-  background-color: var(--container-active-light) !important;
+  background-color: var(--active-link-light) !important;
 }
 .navLinkDark:hover {
-  background-color: var(--container-active-dark) !important;
+  background-color: var(--active-link-dark) !important;
 }
 
 .navLinkActiveLight {
   color: var(--text-dark) !important;
-  background-color: var(--container-active-light) !important;
+  background-color: var(--active-link-light) !important;
 }
 
 .navLinkActiveDark {
   color: var(--text-light) !important;
-  background-color: var(--container-active-dark) !important;
+  background-color: var(--active-link-dark) !important;
 }
 
 @media (min-width: 768px) {

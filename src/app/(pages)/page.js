@@ -18,14 +18,14 @@ export default function HomePage() {
       <div
         className={
           isLight
-            ? `${styles.pageStyles} ${styles.light}`
-            : `${styles.pageStyles} ${styles.dark}`
+            ? `${styles.HomePageStyles} ${styles.light}`
+            : `${styles.HomePageStyles} ${styles.dark}`
         }
       >
         <Container fluid>
           <Row>
             {/* Left Sidebar - Hidden on mobile, visible on lg screens and above */}
-            <Col lg={3} className="d-none d-lg-block">
+            <Col lg={3} xxl={{ span: 2, offset: 1 }} className="d-none d-lg-block">
               <LeftSidebar />
             </Col>
 
@@ -35,7 +35,7 @@ export default function HomePage() {
             </Col>
 
             {/* Right Sidebar */}
-            <Col lg={3}>
+            <Col lg={3} xxl={2}>
               <RightSidebar />
             </Col>
           </Row>
